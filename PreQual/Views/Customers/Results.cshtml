@@ -1,0 +1,37 @@
+﻿@model PreQual.Models.Customer 
+@*recieves the customer*@
+
+@{
+    ViewData["Title"] = "Results";
+}
+
+<h2>Results</h2>
+
+<hr />
+
+@{string image = "";}
+@{string message = "";}
+
+@*Depending on the result, it decides what image to show*@
+@switch (Model.Result)
+{
+    case "Barclaycard":
+        image = "~/images/Barclaycard.jpg";
+        message = "More BANG for your Barclaycard! 0.8% APR!";
+        break;
+    case "Vanquis":
+        image = "~/images/Vanquis.jpg";
+        message = "Vanquis your money problems away! 0.8% APR!";
+        break;
+    default:
+        message = Model.Result;
+        break;
+
+}
+@*Display image and message*@
+<img src="@Url.Content(image)"/>
+<p>@message</p>
+
+@*So you can see everything in the database*@
+@*Obviously wouldn't be available in a commercial app but for testing purposes I've decided to include it*@
+<a asp-action="Index">View list of customers</a>
