@@ -2,6 +2,7 @@
 Pre-Qualification ASP.NET Core MVC App
 
 Instructions:
+
 NOTE: THIS ONLY WORKS WITH VISUAL STUDIO 2017 AND .NET CORE 2.1 SDK (OR LATER) INSTALLED. THIS WILL NOT WORK WITH VISUAL STUDIO 2015.
  - Open in VS2017
  - Go to Tools > NuGet Package Manager > Package Manager Console
