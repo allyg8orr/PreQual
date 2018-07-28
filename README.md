@@ -16,6 +16,6 @@ Hit submit and it should tell you what type of credit card you're viable for.
 If you're over 18 and earn over £30k annually, you should get a Barclaycard, if £30k and under then a Vanquis card. 
 If you're under 18, it will tell you you're not viable for a credit card.
 You can view the customer list and the results they've got.
-Obviosusly this would not be in a comercially released project, but of rhte sake of this small brief I've included it.
+Obviosusly this would not be in a comercially released project, but of the sake of this small brief I've included it.
 
 Thanks!
