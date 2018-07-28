@@ -8,9 +8,9 @@ NOTE: THIS ONLY WORKS WITH VISUAL STUDIO 2017 AND .NET CORE 2.1 SDK (OR LATER) I
  - Go to Tools > NuGet Package Manager > Package Manager Console
  - Type in these commands to create the database:
  
-    Add-Migration Initial
+     Add-Migration Initial
     
-    Update-Database
+     Update-Database
  - Hit F5 and it should run!
 
 You enter a Forename, Surname, Date of Birth and Annual Income. 
