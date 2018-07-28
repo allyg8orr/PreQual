@@ -7,7 +7,9 @@ NOTE: THIS ONLY WORKS WITH VISUAL STUDIO 2017 AND .NET CORE 2.1 SDK (OR LATER) I
  - Open in VS2017
  - Go to Tools > NuGet Package Manager > Package Manager Console
  - Type in these commands to create the database:
+ 
     Add-Migration Initial
+    
     Update-Database
  - Hit F5 and it should run!
 
